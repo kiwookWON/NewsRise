@@ -1,0 +1,22 @@
+{
+  "name": "newsrise",
+  "version": "1.0.0",
+  "description": "news webzine builder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kiwookWON/NewsRise.git"
+  },
+  "author": "kiwook WON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiwookWON/NewsRise/issues"
+  },
+  "homepage": "https://github.com/kiwookWON/NewsRise#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.1"
+  }
+}
