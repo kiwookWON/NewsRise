@@ -1,3 +1,7 @@
+body {
+    /* background: #262626; */
+}
+
 .menu {
     width: 100%;
     overflow: hidden;
@@ -81,12 +85,12 @@
 
 .category {
     width: 100%;
-    height: 50px;
     text-align: center;
     font-size: 2.0em;
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .category span {
@@ -95,12 +99,128 @@
     margin: 1% 0 0 1%;
     display: block;
     float: left;
-    background: #C92C00;
-    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #CF7C89;
+    color: #B21016;
     box-sizing: border-box;
     border-radius: 10px;
+    font-weight: 700;
+}
+
+.category span.select {
+    background: #B21016;
+    color: #ffffff;
 }
 
 .category span:last-child {
     width: 23%;
+}
+
+.main-list {
+    display: block;
+    overflow: hidden;
+    width: 98%;
+    background: #ffffff;
+    margin: 2% 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    /* border: 1px #DADADA solid; */
+}
+
+.main-list ul.no-list {
+    list-style: none;
+}
+
+.main-list h1 {
+    font-size: 3.0em;
+    padding: 1% 0;
+    padding-left: 3%;
+    color: #E62914;
+    /* padding-bottom: 3%; */
+    margin-top: 2%;
+    display: block;
+    font-weight: 600;
+    /* border-top: 1px saddlebrown solid; */
+    /* border-bottom: 10px saddlebrown solid; */
+}
+
+.main-list h1 span {
+    padding-right: 2%;
+    float: right;
+}
+
+.main-list ul {
+    width: 98%;
+    display: block;
+    padding: 2%;
+    box-sizing: border-box;
+    border: 1px #E62914 solid;
+    border-top: 10px #E62914 solid;
+    margin: 1%;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.main-list ul li {
+    width: 98%;
+    height: 5%;
+    /* margin-left: 3%; */
+    font-size: 0.8em;
+    padding: 3% 0 2%;
+    /* display: block; */
+    box-sizing: border-box;
+    /* border-bottom: 1px #b3b3b3 solid; */
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-list ul li span {
+    padding-right: 1%;
+    color: #F47378;
+    font-weight: bold;
+}
+
+.main-list.gallery {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.main-list.gallery .content {
+    width: 49%;
+    /* margin: 1%; */
+    min-height: 450px;
+    /* background: #B21016; */
+    border: 1px #707070 solid;
+    float: left;
+    display: block;
+}
+
+.main-list.gallery .content:last-child {
+    float: right;
+}
+
+.main-list.gallery .content .img-wrap {
+    width: 100%;
+    /* max-height: 301px; */
+    overflow: hidden;
+    /* padding: 1%; */
+    box-sizing: border-box;
+}
+
+.main-list.gallery .content .img-wrap .image-box {
+    width: 98%;
+    max-height: 300px;
+    border: 1px #ADADAD solid;
+    overflow: hidden;
+    display: block;
+    margin: 1% auto;
+    box-sizing: border-box;
+}
+
+.main-list.gallery .content .img-wrap .image-box img {
+    width: 130%;
 }
